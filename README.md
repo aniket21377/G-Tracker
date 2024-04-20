@@ -6,7 +6,7 @@ This README provides an overview of the Sensor application and its implementatio
 
 ### App Setup
 
-Upon installing the Sensor application, it will request permission to track your device's orientation using sensors. Once permission is granted, the app starts collecting orientation data and storing it in a SQLite database.
+Upon installing the G-Tracker application, it will request permission to track your device's orientation using sensors. Once permission is granted, the app starts collecting orientation data and storing it in a SQLite database.
 
 ### Components
 
@@ -28,7 +28,7 @@ The `DatabaseManager` object in the `com.rockstar.sensor` package provides a sin
 - Contains a `getDatabase` function that returns an instance of the `AppDatabase`.
 - Implements the singleton pattern using double-checked locking to ensure thread safety.
 
-Overall, the `DatabaseManager` object acts as a central point for obtaining a reference to the Room database instance used in the Sensor app.
+Overall, the `DatabaseManager` object acts as a central point for obtaining a reference to the Room database instance used in the  G-Tracker app.
 
 #### MainActivity
 
@@ -69,7 +69,7 @@ The `OrientationDataDao` interface defines the Data Access Object (DAO) for inte
 By defining this DAO interface, Room provides a way to perform database operations related to orientation data.
 ## Conclusion
 
-The Sensor application provides a comprehensive solution for collecting, storing, and visualizing orientation data from sensors. Through its well-structured architecture and intuitive user interface, the app offers the following benefits:
+The  G-Tracker application provides a comprehensive solution for collecting, storing, and visualizing orientation data from sensors. Through its well-structured architecture and intuitive user interface, the app offers the following benefits:
 
 - **Real-time Data Collection**: The app registers accelerometer sensors and captures orientation data in real-time, ensuring accurate and up-to-date information.
 
@@ -79,5 +79,5 @@ The Sensor application provides a comprehensive solution for collecting, storing
 
 - **User-friendly Interface**: Utilizing Jetpack Compose, the app presents orientation data in a visually appealing and user-friendly manner, enhancing the overall user experience.
 
-Overall, the Sensor app serves as a valuable tool for various applications requiring orientation data, such as motion tracking, augmented reality, and gaming. With its robust features and seamless functionality, the app meets the needs of both casual users and professionals in the field of sensor data analysis.
+Overall, the  G-Tracker app serves as a valuable tool for various applications requiring orientation data, such as motion tracking, augmented reality, and gaming. With its robust features and seamless functionality, the app meets the needs of both casual users and professionals in the field of sensor data analysis.
 
